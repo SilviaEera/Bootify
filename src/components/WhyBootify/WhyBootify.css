@@ -1,0 +1,39 @@
+.whyBootify {
+  background-color: #dff0ef;
+}
+
+.whyBootifyHeading {
+  color: #49565d;
+  font-size: 36px;
+  margin: 0;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.whyBootifyCardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.cardIcon {
+  width: 150px;
+  margin-right: 50px;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer > .iconTextContainer {
+  text-align: left;
+  width: 30%;
+}
+
+.cardContainer > .iconTextContainer > h4 {
+  font-size: 20px;
+  font-weight: 700;
+}

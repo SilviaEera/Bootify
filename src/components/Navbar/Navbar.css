@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(223, 240, 239);
+  box-shadow: 1px 4px 5px 0px rgba(183, 214, 212, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(183, 214, 212, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(183, 214, 212, 0.75);
+}
+
+.logo {
+  padding-left: 5%;
+}
+
+.navLogo {
+  /* width: 100px; */
+  max-height: 2.6rem;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.navLink {
+  margin: 0 10px;
+}
